@@ -1,1 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header{
+position: fixed;
+width: 100%;  
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 0px 10px;
+background-color: white;
+/*👉border-bottom: 0.5px solid black;👈*/
+/*👉background-color: rgb(232, 238, 240);👈*/
+}
+
+.w3logo{
+  height: 50px;
+}
+
+nav{
+  display: flex;
+  gap: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.search{
+  width: 175px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 15px;
+    background-color: white;
+}
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.dots {
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.right_section{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+
+.app_container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding:2px 10px;
+  border-radius:12px;
+  background: rgba(163, 207, 251, 0.5);
+  border: 1px solid #a3cffb;
+}
+
+.app_container img{
+  width: 25px;
+  display: flex;
+}
+
+.right_section a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+main{
+  width: 100%;
+  height: 1000px;
+  background-color: #282A35 !important;
+}
+
+.signin {
+    height: 40px;
+    padding: 0 22px;
+    border: none;
+    border-radius: 8px;
+    background: #04aa6d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signin:hover {
+    background: #038c5a;
+}
+
 
